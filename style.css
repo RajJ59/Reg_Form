@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background: url(/bg.jpg) no-repeat;
+    background-size: cover;
+   
+}
+
+.RForm{
+    width: 50%;
+    min-height: 100vh;
+    /* background-position: center; */
+    
+    display: flex;
+    justify-content: center;
+    border-right: 4px solid rgb(172, 64, 172);
+}
+
+.display{
+    width: 50%;
+}
+
+.MForm{
+    border: 2px solid white;
+    min-height: 30rem;
+    border-radius: 20px;
+    margin-top: 6rem;
+    background:transparent;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    width : 30rem;
+    height:min-content;
+
+}
+
+#head{
+    align-self: center;
+    margin-top: 1.5em;
+    size: large;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ul{
+    margin-left: 0;
+} */
+
+li{
+    margin: 50px;
+    list-style: none;
+
+}
+
+#RBtn{
+    width: 10rem;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 8px black;
+    border: none;
+    align-self: center;
+    background-color: rgb(189, 224, 245);
+    margin-bottom: 20px;
+   
+}
+input{
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 15rem;
+    font-size: 15px;
+    margin-left: 2em;
+}
+
+input::placeholder
+{
+    color: rgb(80, 179, 190);
+}
+
+input{
+    color: white;
+}
+
+
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.output{
+    border: 2px solid white;
+    min-height: 30rem;
+    border-radius: 20px;
+    margin-top: 6rem;
+    background:transparent;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    width : 30rem;
+    align-items: center;
+}
+
+#data{
+    color: aliceblue;
+}
+
+#table{
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th, td {
+    padding: 8px;
+}
+
+thead th{
+    width: 10%;
+}
+
+thead{
+    background-color: rgb(2, 2, 67);
+    color: white;
+}
+
+#RBtn:hover{
+    box-shadow: 7px 7px 8px black;
+    transform: translateY(-2px);
+}
+
+#RBtn:active{
+    box-shadow: -5px -5px 6px black;
+    transform: translateY(3px);
+}
